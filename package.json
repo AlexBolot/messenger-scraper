@@ -1,0 +1,13 @@
+{
+  "name": "messenger-scraper",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "alexandre bolot : bolotalex06@gmail.com",
+  "license": "MIT",
+  "description": "",
+  "dependencies": {}
+}

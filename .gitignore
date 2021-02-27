@@ -1,0 +1,10 @@
+# Ignoring all external files to avoid
+# publishing personnal photos and node_modules
+**
+
+# Un-ignoring necessary files
+!index.js
+!.gitignore
+!package.json
+!package-lock.json
+!README.md
