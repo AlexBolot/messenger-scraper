@@ -1,6 +1,6 @@
 # Messenger Scraper
 
-## Français :fr:
+## Français :fr: (English [here](https://github.com/AlexBolot/messenger-scraper/tree/master#english-en))
 
 ### 1. Objectif
 Ce code JavaScript a pour objecif d'extraire des l'ensemble des photos et vidéos envoyées et reçues dans des disscussions sur Facebook Messenger.
