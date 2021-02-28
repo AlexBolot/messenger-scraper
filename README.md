@@ -1,11 +1,13 @@
 # Messenger Scraper
 
-## :fr: Français
+## Français :fr:
 
 ### 1. Objectif
 Ce code JavaScript a pour objecif d'extraire des l'ensemble des photos et vidéos envoyées et reçues dans des disscussions sur Facebook Messenger.
 
 En se basant sur la date d'envoi des photos/vidéos, les fichiers sont renommés avec date et heure. Cela permet de retrouver de façon aproximative le moment auquel a été prise la photo/vidéo
+
+---
 
 ### 2. Demander l'historique à Facebook
 
@@ -20,6 +22,8 @@ En se basant sur la date d'envoi des photos/vidéos, les fichiers sont renommés
 ![Créer la copie](readme-assets/fr/creating-copy.png)
 
 :warning:   Après cette étape il faut attendre de recevoir un  mail de Facebook indiquant que l'archive est prête
+
+---
 
 ### 3. Télécharger l'archive
 
@@ -36,6 +40,8 @@ messages
    │- ...
    └─ ... 
 ```
+
+---
 
 ### 4. Extraire les conversations
 
