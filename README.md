@@ -78,11 +78,11 @@ Based on the sent-time of the photos/videos, the files are renamed with the corr
 
 ---
 
-### 3. Télécharger l'archive
+### 3. Download the archive
 
-L'archive sera probablement divisée en plusieurs dossiers d'archives `.zip`.
+It will probably be divided in multiple `.zip` archives.
 
-Placez tous les fichiers `.zip` dans le dossier `place-zip-here`.
+Place them all in the folder named `place-zip-here`.
 
 ---
 
