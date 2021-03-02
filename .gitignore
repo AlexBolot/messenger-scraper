@@ -3,10 +3,11 @@
 **
 
 # Un-ignoring necessary files
-!index.js
 !.gitignore
 !package.json
 !package-lock.json
 !README.md
 !LICENSE.md
 !readme-assets/
+!place-zip-here/
+!scripts/

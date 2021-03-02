@@ -3,11 +3,16 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "unzip": "node scripts/unzipper.js",
+    "merge": "node scripts/merge.js",
+    "scrap": "node scripts/scrapper.js"
   },
   "keywords": [],
   "author": "alexandre bolot : bolotalex06@gmail.com",
   "license": "MIT",
   "description": "",
-  "dependencies": {}
+  "dependencies": {
+    "progress-extract": "^1.0.2"
+  }
 }
