@@ -29,51 +29,17 @@ En se basant sur la date d'envoi des photos/vidéos, les fichiers sont renommés
 
 L'archive sera probablement divisée en plusieurs dossiers d'archives `.zip`.
 
-Pour chacune de ces archives, récupérez le dossier `messages`, contenant `archived_threads` et `inbox`. L'objectif est d'obtenir l'arboressence suivante :
-
-```
-messages
-│─ archived_threads
-│  │- ...
-│  └─ ... 
-└─ inbox   
-   │- ...
-   └─ ... 
-```
+Placez tous les fichiers `.zip` dans le dossier `place-zip-here`.
 
 ---
 
-### 4. Extraire les conversations
+### 4. Lancer le script
 
-Une fois extraits toutes les archives, il faut les placer dans le dossier du projet de la façon suivante :
+Pour utiliser le script vous devez avoir `Node` installé sur votre machine. Trouvable [ici](https://nodejs.org/fr/download/)
 
-```
-messenger-scraper
-│─ place-zip-here
-│  └─ messages 
-│     │─ archived_threads
-│     │  │- ...
-│     │  └─ ... 
-│     └─ inbox   
-│        │- ...
-│        └─ ... 
-│
-│─ archive-2
-│  └─ messages 
-│     │─ archived_threads
-│     │  │- ...
-│     │  └─ ... 
-│     └─ inbox   
-│        │- ...
-│        └─ ... 
-│
-│─ readme-assets
-│─ .gitignore
-│─ index.js
-│─ LICENSE.md
-│─ package.json
-│─ package-lock.json
-└─ README.md
-```
+Étapes à suivre : 
+1. Ouvrir un terminal dans le dossier du projet
+2. Taper `npm install`
+3. Taper `npm start`
 
-:fr: :uk: :us:
+:uk: :us:
